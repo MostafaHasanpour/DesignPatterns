@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Console.EndPoint", "DesignPatterns.Console.EndPoint\DesignPatterns.Console.EndPoint.csproj", "{F5BA0196-8B3C-481E-AB5D-1AA8A132CCA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.EndPoint", "DesignPatterns.Console.EndPoint\DesignPatterns.EndPoint.csproj", "{F5BA0196-8B3C-481E-AB5D-1AA8A132CCA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.CreationalPatterns", "01.CreationalPatterns", "{00F76B7C-CA40-4108-998A-0673E08933F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.SingletonPattern", "01.SingletonPattern", "{A4699F6B-E7C7-4471-B9A9-DC540FB2AA75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Creational.SingletonPattern", "DesignPattern.Creational.SingletonPattern\DesignPattern.Creational.SingletonPattern.csproj", "{F6807011-E961-4352-B62B-D95D88498E01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,17 @@ Global
 		{F5BA0196-8B3C-481E-AB5D-1AA8A132CCA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5BA0196-8B3C-481E-AB5D-1AA8A132CCA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5BA0196-8B3C-481E-AB5D-1AA8A132CCA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6807011-E961-4352-B62B-D95D88498E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6807011-E961-4352-B62B-D95D88498E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6807011-E961-4352-B62B-D95D88498E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6807011-E961-4352-B62B-D95D88498E01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4699F6B-E7C7-4471-B9A9-DC540FB2AA75} = {00F76B7C-CA40-4108-998A-0673E08933F9}
+		{F6807011-E961-4352-B62B-D95D88498E01} = {A4699F6B-E7C7-4471-B9A9-DC540FB2AA75}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C12434D8-EF27-4931-9CFD-E69478D23A26}
