@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DesignPattern.Creational.PrototypePattern\DesignPattern.Creational.PrototypePattern.csproj" />
     <ProjectReference Include="..\DesignPattern.Creational.SingletonPattern\DesignPattern.Creational.SingletonPattern.csproj" />
   </ItemGroup>
 
