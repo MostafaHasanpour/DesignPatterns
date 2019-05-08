@@ -1,4 +1,5 @@
-﻿using DesignPattern.Creational.PrototypePattern;
+﻿using DesignPattern.Creational.BuilderPattern;
+using DesignPattern.Creational.PrototypePattern;
 using DesignPattern.Creational.SingletonPattern;
 using System;
 
@@ -9,8 +10,31 @@ namespace DesignPatterns.EndPoint
         static void Main(string[] args)
         {
             //UseSingleton();
-            UsePrototype();
 
+            //UsePrototype();
+
+            UseBuilder();
+        }
+
+        private static void UseBuilder()
+        {
+            Console.WriteLine("***Builder Pattern Demo***\n");
+            Director director = new Director();
+
+            IBuilder b1 = new Car("Ford");
+            IBuilder b2 = new Motorcycle("Honda");
+
+            //Making Car
+            director.Construct(b1);
+            Product p1 = b1.GetVehicle();
+            p1.Show();
+
+            //Making Motorcycle
+            director.Construct(b2);
+            Product p2 = b2.GetVehicle();
+            p2.Show();
+
+            Console.ReadLine();
         }
 
         private static void UsePrototype()
