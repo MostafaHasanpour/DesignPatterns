@@ -1,4 +1,5 @@
 ﻿using DesignPattern.Creational.BuilderPattern;
+using DesignPattern.Creational.FactoryMethodPattern;
 using DesignPattern.Creational.PrototypePattern;
 using DesignPattern.Creational.SingletonPattern;
 using System;
@@ -13,7 +14,32 @@ namespace DesignPatterns.EndPoint
 
             //UsePrototype();
 
-            UseBuilder();
+            //UseBuilder();
+
+            UseFactoryMethod();
+        }
+
+        private static void UseFactoryMethod()
+        {
+            Console.WriteLine("***Factory Pattern Demo***\n");
+
+            // Creating a Tiger Factory
+            IAnimalFactory tigerFactory = new TigerFactory();
+
+            //Creating a tiger using the Factory Method
+            IAnimal aTiger = tigerFactory.CreateAnimal();
+            aTiger.Speak();
+            aTiger.Action();
+
+            // Creating a Dog Factory
+            IAnimalFactory dogFactory = new DogFactory();
+
+            //Creating a tiger using the Factory Method
+            IAnimal aDog = dogFactory.CreateAnimal();
+            aDog.Speak();
+            aDog.Action();
+
+            Console.ReadLine();
         }
 
         private static void UseBuilder()
