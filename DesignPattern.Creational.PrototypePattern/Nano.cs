@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Creational.PrototypePattern
+﻿namespace DesignPatterns.Creational.PrototypePattern
 {
     public class Nano : BasicCar
     {

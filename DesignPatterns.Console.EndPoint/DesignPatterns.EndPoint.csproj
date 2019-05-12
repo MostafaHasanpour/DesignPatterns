@@ -6,11 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DesignPattern.Additional.SimpleFactoryPattern\DesignPattern.Additional.SimpleFactoryPattern.csproj" />
-    <ProjectReference Include="..\DesignPattern.Creational.BuilderPattern\DesignPattern.Creational.BuilderPattern.csproj" />
-    <ProjectReference Include="..\DesignPattern.Creational.FactoryMethodPattern\DesignPattern.Creational.FactoryMethodPattern.csproj" />
-    <ProjectReference Include="..\DesignPattern.Creational.PrototypePattern\DesignPattern.Creational.PrototypePattern.csproj" />
-    <ProjectReference Include="..\DesignPattern.Creational.SingletonPattern\DesignPattern.Creational.SingletonPattern.csproj" />
+    <ProjectReference Include="..\DesignPattern.Additional.SimpleFactoryPattern\DesignPatterns.Additional.SimpleFactoryPattern.csproj" />
+    <ProjectReference Include="..\DesignPattern.Creational.AbstractFactoryPattern\DesignPatterns.Creational.AbstractFactoryPattern.csproj" />
+    <ProjectReference Include="..\DesignPattern.Creational.BuilderPattern\DesignPatterns.Creational.BuilderPattern.csproj" />
+    <ProjectReference Include="..\DesignPattern.Creational.FactoryMethodPattern\DesignPatterns.Creational.FactoryMethodPattern.csproj" />
+    <ProjectReference Include="..\DesignPattern.Creational.PrototypePattern\DesignPatterns.Creational.PrototypePattern.csproj" />
+    <ProjectReference Include="..\DesignPattern.Creational.SingletonPattern\DesignPatterns.Creational.SingletonPattern.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Structural.DecoratorPattern\DesignPatterns.Structural.DecoratorPattern.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Structural.ProxyPattern\DesignPatterns.Structural.ProxyPattern.csproj" />
   </ItemGroup>
 
 </Project>

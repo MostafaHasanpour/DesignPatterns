@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Creational.BuilderPattern
+﻿namespace DesignPatterns.Creational.BuilderPattern
 {
     //Director
     public class Director

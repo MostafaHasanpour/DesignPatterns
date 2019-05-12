@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Creational.FactoryMethodPattern
+﻿namespace DesignPatterns.Creational.FactoryMethodPattern
 {
     public class DogFactory : IAnimalFactory
     {

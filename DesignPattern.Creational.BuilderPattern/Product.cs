@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DesignPattern.Creational.BuilderPattern
+namespace DesignPatterns.Creational.BuilderPattern
 {
     public class Product
     {

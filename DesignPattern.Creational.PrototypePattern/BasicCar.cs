@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPattern.Creational.PrototypePattern
+namespace DesignPatterns.Creational.PrototypePattern
 {
     public abstract class BasicCar
     {

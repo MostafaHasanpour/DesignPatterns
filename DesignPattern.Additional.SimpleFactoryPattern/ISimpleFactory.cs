@@ -1,5 +1,5 @@
 ﻿//A cretional design pattern and not a GoF Design Patterns
-namespace DesignPattern.Additional.SimpleFactoryPattern
+namespace DesignPatterns.Additional.SimpleFactoryPattern
 {
     public abstract class ISimpleFactory
     {

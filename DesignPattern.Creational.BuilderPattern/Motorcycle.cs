@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Creational.BuilderPattern
+﻿namespace DesignPatterns.Creational.BuilderPattern
 {
     //ConcreteBuilder: Motorcycle
     public class Motorcycle : IBuilder

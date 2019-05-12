@@ -1,8 +1,4 @@
-﻿using DesignPattern.Creational.BuilderPattern;
-using DesignPattern.Creational.FactoryMethodPattern;
-using DesignPattern.Creational.PrototypePattern;
-using DesignPattern.Creational.SingletonPattern;
-using System;
+﻿using System;
 
 namespace DesignPatterns.EndPoint
 {
@@ -16,9 +12,17 @@ namespace DesignPatterns.EndPoint
 
             //DesignPattern.Creational.BuilderPattern.Client.UseBuilder();
 
+            //DesignPattern.Additional.SimpleFactoryPattern.Client.UseSimpleFactory();
+
             //DesignPattern.Creational.FactoryMethodPattern.Client.UseFactoryMethod();
 
-            DesignPattern.Additional.SimpleFactoryPattern.Client.UseSimpleFactory();
+            //DesignPatterns.Creational.AbstractFactoryPattern.Client.UseAbstractFactory();
+
+            //DesignPatterns.Structural.ProxyPattern.Client.UseProxy();
+
+
+            DesignPatterns.Structural.DecoratorPattern.Client.UseDecorator();
+
         }
 
 

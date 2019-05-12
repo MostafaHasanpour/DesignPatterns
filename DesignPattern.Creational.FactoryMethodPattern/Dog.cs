@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPattern.Creational.FactoryMethodPattern
+namespace DesignPatterns.Creational.FactoryMethodPattern
 {
     public class Dog : IAnimal
     {

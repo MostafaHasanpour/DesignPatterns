@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPattern.Creational.SingletonPattern
+namespace DesignPatterns.Creational.SingletonPattern
 {
     public static class Client
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPattern.Creational.FactoryMethodPattern
+namespace DesignPatterns.Creational.FactoryMethodPattern
 {
     public static class Client
     {

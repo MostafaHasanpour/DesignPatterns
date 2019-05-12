@@ -1,7 +1,7 @@
 ﻿//A cretional design pattern and not a GoF Design Patterns
 using System;
 
-namespace DesignPattern.Additional.SimpleFactoryPattern
+namespace DesignPatterns.Additional.SimpleFactoryPattern
 {
     public class SimpleFactory : ISimpleFactory
     {
