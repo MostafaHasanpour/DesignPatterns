@@ -12,6 +12,7 @@
     <ProjectReference Include="..\DesignPattern.Creational.FactoryMethodPattern\DesignPatterns.Creational.FactoryMethodPattern.csproj" />
     <ProjectReference Include="..\DesignPattern.Creational.PrototypePattern\DesignPatterns.Creational.PrototypePattern.csproj" />
     <ProjectReference Include="..\DesignPattern.Creational.SingletonPattern\DesignPatterns.Creational.SingletonPattern.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Structural.AdapterPattern\DesignPatterns.Structural.AdapterPattern.csproj" />
     <ProjectReference Include="..\DesignPatterns.Structural.DecoratorPattern\DesignPatterns.Structural.DecoratorPattern.csproj" />
     <ProjectReference Include="..\DesignPatterns.Structural.ProxyPattern\DesignPatterns.Structural.ProxyPattern.csproj" />
   </ItemGroup>

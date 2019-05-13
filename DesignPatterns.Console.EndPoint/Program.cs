@@ -20,9 +20,9 @@ namespace DesignPatterns.EndPoint
 
             //DesignPatterns.Structural.ProxyPattern.Client.UseProxy();
 
+            //DesignPatterns.Structural.DecoratorPattern.Client.UseDecorator();
 
-            DesignPatterns.Structural.DecoratorPattern.Client.UseDecorator();
-
+            DesignPatterns.Structural.AdapterPattern.Client.UseAdapter();
         }
 
 
